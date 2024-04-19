@@ -1,10 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Feel free to change the background color */
+    color: #333; /* And the text color */
+    font-size: 2em; /* Adjust the size of the text */
 }
 
 #affirmation-container {
