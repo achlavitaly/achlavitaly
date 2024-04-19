@@ -1,18 +1,18 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 800; /* This is typically for a bold font */
+    text-transform: uppercase; /* Converts text to uppercase */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Feel free to change the background color */
-    color: #333; /* And the text color */
-    font-size: 2em; /* Adjust the size of the text */
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Or any color that fits your design */
+    color: #333; /* The color of your text */
+    letter-spacing: 0.1em; /* Adjust letter-spacing for better readability in uppercase */
 }
 
 #affirmation-container {
     text-align: center;
+    padding: 20px;
 }
