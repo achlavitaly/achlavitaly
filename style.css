@@ -20,7 +20,7 @@ body {
 }
 
 #affirmation {
-    font-size: 6vw; /* Responsive font size based on the width of the viewport */
+    font-size: 8vw; /* Responsive font size based on the width of the viewport */
     line-height: 1.2; /* Adjusted line spacing for better readability */
     margin: 0; /* Reset default paragraph margins */
 }
@@ -35,6 +35,6 @@ body {
 /* For screens narrower than 300px, reduce the font size to 18px */
 @media (max-width: 300px) {
     #affirmation {
-        font-size: 18px;
+  font-size: 5vw; /* or whatever size looks best */
     }
 }
