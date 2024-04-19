@@ -1,40 +1,40 @@
 body {
     font-family: "proxima-nova", sans-serif;
-    font-weight: 800; /* This is typically for a bold font */
-    text-transform: uppercase; /* Converts text to uppercase */
+    font-weight: 800;
+    text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Or any color that fits your design */
-    color: #333; /* The color of your text */
-    letter-spacing: 0.1em; /* Adjust letter-spacing for better readability in uppercase */
+    background-color: #f0f0f0;
+    color: #333;
+    letter-spacing: 0.1em;
+    /* No need to specify font-size here since it's defined for #affirmation */
 }
 
 #affirmation-container {
     text-align: center;
     padding: 20px;
-    width: 100%; /* Ensure the container spans the width of the viewport */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    box-sizing: border-box;
 }
 
 #affirmation {
-    font-size: 8vw; /* Responsive font size based on the width of the viewport */
-    line-height: 1.2; /* Adjusted line spacing for better readability */
-    margin: 0; /* Reset default paragraph margins */
+    font-size: 8vw; /* Adjusted for better mobile readability */
+    line-height: 1.2; /* Adjust line height for aesthetics */
+    margin: 0; /* Remove default paragraph margin */
 }
 
-/* For screens wider than 600px, cap the font size at 36px */
+/* Adjust font size for devices wider than 600px */
 @media (min-width: 600px) {
     #affirmation {
-        font-size: 36px;
+        font-size: 36px; /* Fixed font size for larger screens */
     }
 }
 
-/* For screens narrower than 300px, reduce the font size to 18px */
+/* Adjust font size for devices narrower than 300px */
 @media (max-width: 300px) {
     #affirmation {
-  font-size: 5vw; /* or whatever size looks best */
+        font-size: 5vw; /* Slightly larger font size for very small screens */
     }
 }
