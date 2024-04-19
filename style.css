@@ -10,6 +10,13 @@ body {
     background-color: #f0f0f0; /* Or any color that fits your design */
     color: #333; /* The color of your text */
     letter-spacing: 0.1em; /* Adjust letter-spacing for better readability in uppercase */
+     /* ... other styles ... */
+    font-size: 2em; /* Or any other size. 'em' is scalable, 'px' for fixed size */
+}
+
+#affirmation-container p {
+    /* ... other styles ... */
+    font-size: 2em; /* If you want to specifically target the paragraph within the container */
 }
 
 #affirmation-container {
