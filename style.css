@@ -10,16 +10,31 @@ body {
     background-color: #f0f0f0; /* Or any color that fits your design */
     color: #333; /* The color of your text */
     letter-spacing: 0.1em; /* Adjust letter-spacing for better readability in uppercase */
-     /* ... other styles ... */
-    font-size: 2em; /* Or any other size. 'em' is scalable, 'px' for fixed size */
-}
-
-#affirmation-container p {
-    /* ... other styles ... */
-    font-size: 2em; /* If you want to specifically target the paragraph within the container */
 }
 
 #affirmation-container {
     text-align: center;
     padding: 20px;
+    width: 100%; /* Ensure the container spans the width of the viewport */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+#affirmation {
+    font-size: 6vw; /* Responsive font size based on the width of the viewport */
+    line-height: 1.2; /* Adjusted line spacing for better readability */
+    margin: 0; /* Reset default paragraph margins */
+}
+
+/* For screens wider than 600px, cap the font size at 36px */
+@media (min-width: 600px) {
+    #affirmation {
+        font-size: 36px;
+    }
+}
+
+/* For screens narrower than 300px, reduce the font size to 18px */
+@media (max-width: 300px) {
+    #affirmation {
+        font-size: 18px;
+    }
 }
